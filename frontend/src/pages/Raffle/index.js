@@ -26,6 +26,8 @@ export default function Raffle() {
         friends: _.pluck(friends, "_id"),
         dispatch,
       });
+
+      alert("Amigo secreto sorteado");
     }
 
     return (
