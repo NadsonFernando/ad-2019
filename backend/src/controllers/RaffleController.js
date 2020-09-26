@@ -1,12 +1,6 @@
 import Raffle from "../models/RaffleSchema";
 import UtilRaffle from "../util/UtilRaffle";
 
-async function findAll(req, res) {
-  const raffles = await Raffle.find();
-
-  res.json(raffles);
-}
-
 async function save(req, res) {
   const raflle = req.body;
   const model = new Raffle(raflle);
@@ -15,7 +9,7 @@ async function save(req, res) {
 
   console.log("result", result);
 
-  /*try {
+  try {
     const saved = await model.save();
 
     if (saved) {
@@ -26,10 +20,9 @@ async function save(req, res) {
       isError: true,
       description: error,
     });
-  }*/
+  }
 }
 
 export default {
   save,
-  findAll,
 };
