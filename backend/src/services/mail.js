@@ -1,7 +1,7 @@
 import sendgrid from "@sendgrid/mail";
 
 sendgrid.setApiKey(
-  "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"
+/*coloque a apikey do sendgrid aqui*/
 );
 
 export default {
