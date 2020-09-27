@@ -14,3 +14,8 @@
 
 - Entre no nagevador e digite
   `localhost:3000/raffle`
+  
+  
+  Para rodar o send grid é preciso adicionar a apikey, pode criar uma apikey no sendgrid bem fácil ou usar a minha, enviei no email
+  troque a chave aqui nesse aquivo a seguir
+  `https://github.com/NadsonFernando/ad-2019/blob/master/backend/src/services/mail.js`
