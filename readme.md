@@ -12,8 +12,5 @@
 - Depois rode o seguinte comando
   `npm start`
 
-- Entre na pasta backend e rode o sefuinte comando
-  `npm install`
-
 - Entre no nagevador e digite
   `localhost:3000/raffle`
